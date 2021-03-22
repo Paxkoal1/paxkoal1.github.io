@@ -3,7 +3,8 @@ body{
     background: grey;
     background-size: auto 100vh;
     height: 100vh;
-    font-family: Arial;
+
+    
     
   }
 
@@ -12,7 +13,7 @@ body{
     
   }
   a {
-    color: orange;
+    color: teal;
     text-decoration: none;
     
   }
@@ -26,14 +27,56 @@ body{
   .menu li{
     list-style: none;
   }
-  .site-subtitle,
-  .site-title{
+  .site-subtitle,.site-title{
     text-align: center;
-    color: lightblue;
+    color: lightgray;
+    font-family: monospace;
     
   }
   .site-subtitle{
     
     font-style: italic;
   }
+  p{
+    text-align: center;
+  }
+
+ .logo{
+    
+    width:100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 12%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+
+
+ }
+ 
+
+ #header{
+   background-color: black;
+   height: 400px;
+   
+ }
+
+ img#cara{
+   display: block;
+   border-radius: 50%;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+ .container{
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: black;
+
+   
+ }
 
