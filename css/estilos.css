@@ -12,21 +12,7 @@ body{
     background-color: white;
     
   }
-  a {
-    color: teal;
-    text-decoration: none;
-    
-  }
-  a:hover{
-    text-decoration: underline;
-  }
-  .menu ul{
-    display: flex;
-    justify-content: space-around;
-  }
-  .menu li{
-    list-style: none;
-  }
+  
   .site-subtitle,.site-title{
     text-align: center;
     color: lightgray;
@@ -37,10 +23,7 @@ body{
     
     font-style: italic;
   }
-  p{
-    text-align: center;
-  }
-
+ 
  .logo{
     
     width:100px;
@@ -58,7 +41,7 @@ body{
 
  #header{
    background-color: black;
-   height: 400px;
+   height: 500px;
    
  }
 
@@ -79,4 +62,31 @@ body{
 
    
  }
+ #linkedin{
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+ }
+  p{
+  justify-content: center;
+  display: inline-block;
+   }
+
+#linha{
+  font-family: monospace;
+  font-size: 12pt;
+  color: lightgray;
+  justify-content: center;
+}
+
+
+
+ 
+ 
 
